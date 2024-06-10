@@ -1,0 +1,52 @@
+body{
+  background-color: rgb(0, 0, 0);
+  color:white;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 0 28px;
+  
+}
+.card-btn{
+  margin-top: 1rem!important;
+}
+.hero-container{
+  margin-top: 1rem;
+}
+.main-container{
+  
+  margin-top: 40px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-right{
+  width: 50%;
+  margin-left: 60px;
+}
+.mini-main{
+  
+  display: flex;
+  align-items: flex-start;
+margin-top: 3vh;
+  justify-content: center;
+
+}
+.main-right button{
+  
+  border: none;
+  padding: 7px 17px;
+  border-radius: 8px;
+  background-color: rgb(255, 115, 0);
+}
+.main-right p{
+  font-size: 20px;
+}
+.main-right button a{
+  text-decoration: none;
+  color: white;
+}
